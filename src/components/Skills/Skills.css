@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.skill__text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skill__text > h1{
+    font-size: 30px;
+}
+
+.skill__img{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skill__img > img{
+    width: 600px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.skill__skillset > h5 {
+ font-family: 'Noto Serif';
+ font-weight: 300;
+ padding-bottom: 30px;
+ padding-top: 10px;
+}
+
+.skill__slider > .css-eglki6-MuiLinearProgress-root {
+       background-color: rgb(88, 88, 88);
+}
+.skill_slider1 > div > .MuiLinearProgress-barColorPrimary {
+    background-color: #19d2a1;
+}
