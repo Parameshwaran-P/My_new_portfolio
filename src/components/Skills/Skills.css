@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .skillContainer{
     display: flex;
     align-items: center;
@@ -38,9 +39,3 @@
  padding-top: 10px;
 }
 
-.skill__slider > .css-eglki6-MuiLinearProgress-root {
-       background-color: rgb(88, 88, 88);
-}
-.skill_slider1 > div > .MuiLinearProgress-barColorPrimary {
-    background-color: #19d2a1;
-}

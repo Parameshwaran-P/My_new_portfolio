@@ -17,25 +17,55 @@ const Skills = () => {
              <div className='skill__skillset'>
               <h5>HTML5</h5>
               <div className='skill__slider skill_slider1' id=''>
-              <LinearProgress variant='determinate' value={85}/>
+              <LinearProgress 
+              variant='determinate' 
+              value={85} 
+              sx={{
+                  '& .MuiLinearProgress-bar':
+                   {
+                    backgroundColor: '#19d2a1',
+                   },
+                   backgroundColor: 'rgb(88, 88, 88)',
+                }}/>
               </div>
              </div>
              <div className='skill__skillset'>
               <h5>CSS3</h5>
               <div className='skill__slider skill_slider2'>
-              <LinearProgress variant='determinate' value={90}/>
+              <LinearProgress variant='determinate' value={90}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'tomato',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
              <div className='skill__skillset'>
               <h5>ReactJs</h5>
               <div className='skill__slider skill_slider3'>
-              <LinearProgress variant='determinate' value={89}/>
+              <LinearProgress variant='determinate' value={89}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'yellow',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
              <div className='skill__skillset'>
               <h5>NodeJs</h5>
               <div className='skill__slider skill_slider4'>
-              <LinearProgress variant='determinate' value={75}/>
+              <LinearProgress variant='determinate' value={75}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'green',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
              <div className='skill__skillset'>
@@ -47,19 +77,40 @@ const Skills = () => {
              <div className='skill__skillset'>
               <h5>MongoDB</h5>
               <div className='skill__slider skill_slider6'>
-              <LinearProgress variant='determinate' value={85}/>
+              <LinearProgress variant='determinate' value={85}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'red',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
              <div className='skill__skillset'>
               <h5>GraphQL</h5>
               <div className='skill__slider skill_slider7'>
-              <LinearProgress variant='determinate' value={65}/>
+              <LinearProgress variant='determinate' value={65}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'pink',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
              <div className='skill__skillset'>
               <h5>AWS</h5>
               <div className='skill__slider skill_slider8'>
-              <LinearProgress variant='determinate' value={77}/>
+              <LinearProgress variant='determinate' value={77}
+              sx={{
+                '& .MuiLinearProgress-bar':
+                 {
+                  backgroundColor: 'white',
+                 },
+                 backgroundColor: 'rgb(88, 88, 88)',
+              }}/>
               </div>
              </div>
             </div>
