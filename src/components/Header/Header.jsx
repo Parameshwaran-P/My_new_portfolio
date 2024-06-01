@@ -27,11 +27,6 @@ const Header = () => {
                 Projects
             </h4>
          </Link>
-         <Link to='exprience' smooth={true} duration={500}>
-            <h4>
-                Exprience
-            </h4>
-         </Link>
          <Link to='contact' smooth={true} duration={500}>
             <h4>
                 Contact
