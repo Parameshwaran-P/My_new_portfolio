@@ -32,8 +32,10 @@ const Header = () => {
                 Contact
             </h4>
          </Link>
-
-        <h4 className='header__rightButton'>Join with me</h4>
+        <Link>
+        
+        </Link>
+        <h4 className='header__rightButton'>Get in to touch</h4>
         </div>
 
     </div>
