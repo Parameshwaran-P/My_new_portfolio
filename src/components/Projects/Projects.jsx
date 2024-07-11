@@ -15,7 +15,7 @@ const Projects = () => {
                 image:pic1,
                 title:' Responsive Blog website',
                 description:'A dynamic and responsive blog website developed using ReactJS and Tailwind CSS.',
-                link:''
+                link:'https://psh-blog.netlify.app'
                 },
                 {
                 image:pic2,
