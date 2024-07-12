@@ -87,32 +87,8 @@ const Skills = () => {
               }}/>
               </div>
              </div>
-             <div className='skill__skillset'>
-              <h5>GraphQL</h5>
-              <div className='skill__slider skill_slider7'>
-              <LinearProgress variant='determinate' value={65}
-              sx={{
-                '& .MuiLinearProgress-bar':
-                 {
-                  backgroundColor: 'pink',
-                 },
-                 backgroundColor: 'rgb(88, 88, 88)',
-              }}/>
-              </div>
-             </div>
-             <div className='skill__skillset'>
-              <h5>AWS</h5>
-              <div className='skill__slider skill_slider8'>
-              <LinearProgress variant='determinate' value={77}
-              sx={{
-                '& .MuiLinearProgress-bar':
-                 {
-                  backgroundColor: 'white',
-                 },
-                 backgroundColor: 'rgb(88, 88, 88)',
-              }}/>
-              </div>
-             </div>
+             
+             
             </div>
         </Element>
     </div>
