@@ -1,52 +1,54 @@
 import React from 'react'
-import pic1 from '../Projects/blog page.png'
-import pic2 from '../Projects/my portfolio.png'
-import pic3 from '../Projects/crud.png'
-import pic4 from '../Projects/spice-hut.png'
-import pic5 from '../Projects/Text-to-voice.png'
-import pic6 from '../Projects/to-do.png'
+import pic1 from '../Projects/twitter-clone.png'
+import pic2 from '../Projects/blog page.png'
+import pic3 from '../Projects/my portfolio.png'
+import pic4 from '../Projects/crud.png'
+import pic5 from '../Projects/spice-hut.png'
+import pic6 from '../Projects/Text-to-voice.png'
+
 import { Element } from 'react-scroll'
 import Showprojects from '../Showprojects/Showprojects'
 import './Projects.css'
 const Projects = () => {
 
     const config =[
-            {
-                image:pic1,
+      {
+        image:pic1,
+        title:' Twitter Clone App',
+        description:'Developed a Twitter clone application using the MERN stack (MongoDB, Express.js, React.js, Node.js).',
+        link:'https://social-media-using-mern-fullstack-and.onrender.com/'
+        },
+              {
+                image:pic2,
                 title:' Responsive Blog website',
                 description:'A dynamic and responsive blog website developed using ReactJS and Tailwind CSS.',
                 link:'https://psh-blog.netlify.app'
                 },
                 {
-                image:pic2,
+                image:pic3,
                 title:'My Portfolio',
                 description:'This is my personal portfolio website developed using ReactJS and Tailwind CSS. It showcases my skills, projects, and professional background in a clean and modern design.',
                 link:''
                 },
                 {
-                image:pic3,
+                image:pic4,
                 title:'Text to voice converter',
                 description:'A Text to voice convert website user enter a text to voice. built with ReactJs and Tailwind CSS',
                 link:''
                 },
                 {
-                image:pic4,
+                image:pic5,
                 title:'Psh-Spicy Hut!',
                 description:'A Restaruant website like a swiggey. built with HTML and CSS',
                 link:''
                 },
                 {
-                image:pic5,
+                image:pic6,
                 title:' Text to voice converter',
                 description:' A Text to voice convert website user enter a text to voice. built with Html, Css, Javascript',
                 link:''
                 },
-                {
-                image:pic6,
-                title:'To-Do List',
-                description:'A to-do list its use write a task what you do? built with ReactJs and CSS',
-                link:''
-                }
+                
         ]
     
   return (
